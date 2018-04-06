@@ -40,11 +40,18 @@
             <version>${jaxb.version}</version>
         </dependency>
 
+        <!-- JSON Web Tokens -->
+        <dependency>
+            <groupId>io.jsonwebtoken</groupId>
+            <artifactId>jjwt</artifactId>
+            <version>0.9.0</version>
+        </dependency>
+
         <!-- Validation -->
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-validator</artifactId>
-            <version>6.0.8.Final</version>
+            <version>6.0.9.Final</version>
         </dependency>
         <dependency>
             <groupId>javax.el</groupId>
